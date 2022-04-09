@@ -26,7 +26,6 @@ main{
 }
 
 .get-user{
-    /*border: 1px solid deeppink;*/
     padding: 15px 10px;
     justify-content: space-between;
     align-items: center;
@@ -77,9 +76,9 @@ main{
     100%{
         background-color: indianred;
     }
-    0%{
-        background-color: whitesmoke;
-    }
+    /*0%{*/
+    /*    background-color: whitesmoke;*/
+    /*}*/
 }
 
 .get-user button{
@@ -90,46 +89,23 @@ main{
     border-radius: 10px;
     color: gray;
     cursor: pointer;
+    transition: all 1s ease;
 }
 
 .get-user button:hover{
     box-shadow: 7px 3px 15px inset gray;
-    /*animation: gradiant 1s infinite;*/
+    background-color: #e3e1e1;
 }
-
-/*@keyframes gradiant {*/
-/*    0%{*/
-/*        background: linear-gradient(to right, lightgray 0%, lightgray 10%)*/
-/*    }*/
-/*    20%{*/
-/*        background: linear-gradient(to right, whitesmoke 0%, lightgray 10%, lightgray 20%)*/
-/*    }*/
-/*    40%{*/
-/*        background: linear-gradient(to right, whitesmoke 0%, whitesmoke 10%, lightgray 30%, lightgray 40%)*/
-/*    }*/
-/*    60%{*/
-/*        background: linear-gradient(to right, whitesmoke 0%, whitesmoke 40%, lightgray 40%, lightgray 60%)*/
-/*    }*/
-/*    80%{*/
-/*        background: linear-gradient(to right, whitesmoke 0%, whitesmoke 60%, lightgray 60%, lightgray 80%)*/
-/*    }*/
-/*    100%{*/
-/*        background: linear-gradient(to right, whitesmoke 0%, whitesmoke 80%, lightgray 80%, lightgray 100%)*/
-/*    }*/
-/*}*/
 
 .show-user{
     background-color: white;
     padding: 30px 50px;
     align-items: center;
     box-shadow: 5px 5px 15px lightblue, -5px -5px 15px lightblue;
+    border-radius: 10px;
     opacity: 0;
     transition: all 0.7s ease-out;
 }
-
-/*.show-user>*{*/
-/*    margin-right: 25px;*/
-/*}*/
 
 .user-pic{
     width: 150px;
@@ -202,7 +178,6 @@ main{
 }
 
 .incorrect-user-show{
-    /*opacity: 1;*/
     top: 185px;
     right: 15px;
 }
