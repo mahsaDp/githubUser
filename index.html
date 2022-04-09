@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Profile</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="image/git-favicon.png" type="image/x-icon" />
+</head>
+<body>
+
+<main class="flex">
+    <div class="get-user flex">
+        <label for="username">Enter Your Github User:</label>
+        <input type="text" name="text" id="username" placeholder="UserName">
+        <button>Search</button>
+    </div>
+    <div class="show-user flex">
+        <img src="image/avatar.jpg" alt="avatar" class="user-pic">
+        <div class="user-info">
+            <h2 class="name">Null</h2>
+            <p class="user-id">Null</p>
+            <div class="flex">
+                <p class="repo-number"><span>0</span>&nbsp;Repository</p>
+                <p class="follower-number"><span>0</span>&nbsp;Followers</p>
+                <p class="following-number"><span>0</span>&nbsp;Following</p>
+            </div>
+        </div>
+        <div class="setting">
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+        </div>
+        <div class="edit">
+            <i class="fa-solid fa-marker"></i>
+        </div>
+    </div>
+    <div class="incorrect-user">
+        <h3>ERROR</h3>
+        <p>Please enter the correct user</p>
+    </div>
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>
